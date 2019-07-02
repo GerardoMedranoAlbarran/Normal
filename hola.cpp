@@ -4,6 +4,7 @@ void reverse(char text[]){
 	for(int i = 0; i<=strlen(text); i++){
         printf("%c",text[strlen(text)-i]);   
     }
+    print("%s",text);
 }
 
 int main()
